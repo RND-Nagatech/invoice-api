@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+
+# Build output and compiler caches
+dist/
+coverage/
+.nyc_output/
+.nestjs/
+*.tsbuildinfo
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs and runtime files
+*.log
+logs/
+tmp/
+temp/
+uploads/
+storage/
+data/
+*.pid
+*.pid.lock
+
+# Local databases and dumps
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.bak
+
+# Certificates, private keys, and credential files
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*-credentials.json
+service-account*.json
+firebase-adminsdk-*.json
+secrets/
+credentials/
+
+# Test and tooling artifacts
+test-results/
+playwright-report/
+.cache/
+.vite/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
